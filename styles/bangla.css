@@ -34,8 +34,8 @@
 }
 /* Banner styles */
 .second-btn {
-  color :rgb(50, 112, 96);
-  font-size:20px ;
+  color: rgb(50, 112, 96);
+  font-size: 20px;
 }
 .banner-description {
   font-size: 48px;
@@ -65,4 +65,28 @@
   border-radius: 18px;
   margin-left: 100px;
   margin-right: 100px;
+}
+/* main styles */
+main {
+  max-width: 1140px;
+  margin: auto;
+}
+/* Pillar section styles */
+.skills-container {
+  display: flex;
+  gap: 20px;
+  margin-left: 0px;
+  margin-right:80px ;
+}
+.skill {
+  padding: 30px 33px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+}
+.skill-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-weight: normal;
+  font-size: 20px;
 }
