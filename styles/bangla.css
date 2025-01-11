@@ -1,0 +1,68 @@
+/* shared styles */
+
+/* top section styles */
+.fira-sans-regular {
+  font-family: 'Fira Sans', serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  color: #0e0e0e;
+}
+.sign-in-btn {
+  position: static;
+  width: 85px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  color: rgb(0, 106, 80);
+  border: 1px solid rgb(0, 106, 80);
+}
+.centre-btn {
+  text-align: center;
+}
+.upper-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 150px 20px 150px;
+}
+/* Banner styles */
+.second-btn {
+  color :rgb(50, 112, 96);
+  font-size:20px ;
+}
+.banner-description {
+  font-size: 48px;
+  margin-top: 10px;
+}
+.explore-button {
+  position: static;
+  width: 190px;
+  height: 34px;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 2px;
+  background-color: #006a50;
+  border-radius: 5px;
+  color: white;
+}
+.banner {
+  display: flex;
+  flex-direction: row;
+  width: 1100px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  gap: 95px;
+  padding: 50px 70px 50px 70px;
+  background: rgb(198, 228, 214);
+  border-radius: 18px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
