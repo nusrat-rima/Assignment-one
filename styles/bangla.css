@@ -74,9 +74,9 @@ main {
 /* Pillar section styles */
 .skills-container {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   margin-left: 0px;
-  margin-right:80px ;
+  margin-right: 80px;
 }
 .skill {
   padding: 30px 33px;
@@ -89,4 +89,51 @@ main {
   color: rgba(14, 14, 14, 0.7);
   font-weight: normal;
   font-size: 20px;
+}
+/* vision-section-styles */
+.vision-container {
+  display: flex;
+  gap: 25px;
+  margin-right: 80px;
+}
+.item {
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 30px;
+}
+.Digital {
+  background: rgba(84, 144, 245, 0.2);
+}
+.Green {
+  background-color: #c6e4d6;
+}
+.Modern {
+  background-color: #f7ebcf;
+}
+.digital-btn {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  background: rgb(84, 144, 245);
+  width: 122px;
+  height: 41px;
+}
+.green-btn {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  background: rgb(9, 161, 92);
+  width: 122px;
+  height: 41px;
+}
+.modern-btn {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  background-color: #FFC239;
+  width: 122px;
+  height: 41px;
+}
+.item-tittle{
+  font-size: 25px;
 }
