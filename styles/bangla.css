@@ -174,7 +174,6 @@ main {
   padding: 20px;
   border-radius: 10px;
   margin: 10px 0;
-  
 }
 .money {
   display: flex;
@@ -184,6 +183,21 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.color-money{
-  background-color: #C6E4D6;
+.color-money {
+  background-color: #c6e4d6;
+}
+.text-area {
+  display: block;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+  padding: 10px 20px;
+}
+.done-btn {
+  justify-content: center;
+  align-items: center;
+  margin-left: 45%;
+  margin-top: 30px;
 }
