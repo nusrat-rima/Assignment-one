@@ -223,3 +223,11 @@ footer form {
   margin-left: 100px;
   margin-right: 100px;
 }
+footer .last-section {
+  text-align: center;
+  justify-content: space-around;
+  padding: 5px 10px;
+}
+footer .image {
+  gap: 20px;
+}
