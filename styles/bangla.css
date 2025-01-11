@@ -199,5 +199,27 @@ main {
   justify-content: center;
   align-items: center;
   margin-left: 45%;
-  margin-top: 30px;
+  margin-top: 20px;
+}
+/* footer section styles */
+footer input[type='email'] {
+  width: 600px;
+  height: 24px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer form {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+}
+.terminate {
+  margin-top: 10px;
+  background-color: #c6e4d6;
+  padding: 70px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
 }
